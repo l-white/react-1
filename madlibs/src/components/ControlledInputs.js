@@ -21,6 +21,7 @@ const ControlledInputs = () => {
         month: month.value
       }
       setStory((story) => {
+        // copy story from state and add words
         return [...story, words]
       });
       setFirstNoun('');
